@@ -1,0 +1,16 @@
+com\axonactive\training\tourament\player\Gender.class
+com\axonactive\training\tourament\tourament\Tourament.class
+com\axonactive\training\tourament\player\PlayerResource.class
+com\axonactive\training\tourament\team\Team.class
+com\axonactive\training\tourament\player\Player.class
+com\axonactive\training\tourament\table\Group.class
+com\axonactive\training\tourament\match\Match.class
+com\axonactive\training\tourament\player\GenderConverter.class
+com\axonactive\training\tourament\player\PlayerDto.class
+com\axonactive\training\tourament\matchresult\MatchResult.class
+com\axonactive\training\tourament\RestConfiguration.class
+com\axonactive\training\tourament\table\GroupService.class
+com\axonactive\training\tourament\match\MatchService.class
+com\axonactive\training\tourament\player\PlayerService.class
+com\axonactive\training\excel\ExcelReader.class
+com\axonactive\training\tourament\team\TeamService.class
