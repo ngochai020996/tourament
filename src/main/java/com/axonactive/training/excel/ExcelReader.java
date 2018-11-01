@@ -6,7 +6,6 @@ package com.axonactive.training.excel;
  * %%
  * Copyright (C) 2016 Adam Bien
  * %%
- * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  * 
@@ -83,9 +82,6 @@ public class ExcelReader {
         }
     }
 
-//    public static <T> Stream<T> load(Function<Row, T> mapper , boolean withHeader, int tab, String folder, String file) {
-//        return load(mapper, withHeader, tab, folder, file);
-//    }
 
     public static <T> Stream<T> load(Function<Row, T> mapper, String folder, String file) {
         return load(mapper, true, 0, folder, file);
@@ -119,7 +115,7 @@ public class ExcelReader {
             case Cell.CELL_TYPE_FORMULA:
                 return cell.getNumericCellValue();
             default:
-                throw new IllegalArgumentException("Unknown cell type: " + cell.getCellType());
+                throw new IllegalArgumentException("Unknown this cell type: " + cell.getCellType());
         }
     }
 
